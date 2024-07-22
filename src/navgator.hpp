@@ -16,6 +16,7 @@
 #include <iostream>
 #include <fstream>
 #include <filesystem>
+#include <string>
 
 // Use this if you already are managing imgui
 // (eg, creating imgui, creation of frames, shutting down)

@@ -185,7 +185,13 @@ namespace Navgator {
 
             ImGui::Separator();
             
-            ImGui::InputText("File Path", path.data(), 512);
+            if (ImGui::InputText("File Path", path.data(), 512))
+            {
+               if (std::filesystem::is_directory(path))
+               {
+                  temp = path;
+               }
+            }
             ImGui::SameLine(0.f, ImGui::GetStyle().ItemInnerSpacing.x);
             
             if (ImGui::Button("Enter", ImVec2(100, 25))) {
