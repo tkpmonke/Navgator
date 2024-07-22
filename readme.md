@@ -1,5 +1,5 @@
 # Embeded File Explorer
-Hopefully Cross Platform as well!
+Simple Files Explorer for GLFW + imgui apps. comes with a simple imgui wrapper to initialize imgui for you! It comes with a modular backend, and a planned SDL backend will be included!
 
 ## Todo
 
@@ -8,6 +8,7 @@ Hopefully Cross Platform as well!
 - [ ] allow root directory on Linux
 - [ ] working on windows
 - [ ] specify what file types are being looked for
+- [ ] SDL2 backend
 - [ ] suitability & bug test
 
 ## Screenshots
