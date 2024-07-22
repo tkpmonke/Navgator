@@ -1,8 +1,8 @@
 # Embeded File Explorer
 Hopefully Cross Platform as well!
 
-! [screen shot of navgator] (/page/screenshot.png)
-! [another screenshot] (/page/screenshot2.png)
+![screen shot of navgator](/page/screenshot.png)
+![another screenshot](/page/screenshot2.png)
 
 - [x] working on Linux
 - [ ] finish readme
