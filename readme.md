@@ -6,7 +6,7 @@ Since Navgator uses ImGui, the colors will automagically be the same as your eng
 ## Todo
 
 - [x] working on Linux
-- [ ] finish readme
+- [x] finish readme
 - [ ] allow root directory on Linux
 - [ ] working on windows
 - [ ] specify what file types are being looked for
