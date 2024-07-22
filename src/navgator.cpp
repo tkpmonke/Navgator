@@ -181,7 +181,7 @@ namespace Navgator {
             }
             ImGui::Separator();
 
-            if (ImGui::Button("Page Up", ImVec2(40, 20)) && temp.find_last_of("/") != 0) temp = std::string(temp.begin(), temp.begin() + temp.find_last_of("/"));
+            if (ImGui::Button("Page Up", ImVec2(60, 20)) && temp.find_last_of("/") != 0) temp = std::string(temp.begin(), temp.begin() + temp.find_last_of("/"));
 
             ImGui::Separator();
             

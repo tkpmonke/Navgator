@@ -1,4 +1,6 @@
 bin/*
 .cache/*
 obj/*
-
+*.make
+[Mm]akefile
+compile_commands.json
