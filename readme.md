@@ -1,8 +1,7 @@
 # Embeded File Explorer
 Hopefully Cross Platform as well!
 
-![screen shot of navgator](/page/screenshot.png)
-![another screenshot](/page/screenshot2.png)
+## Todo
 
 - [x] working on Linux
 - [ ] finish readme
@@ -10,3 +9,9 @@ Hopefully Cross Platform as well!
 - [ ] working on windows
 - [ ] specify what file types are being looked for
 - [ ] suitability & bug test
+
+## Screenshots
+
+![screen shot of navgator](/page/screenshot.png)
+![another screenshot](/page/screenshot2.png)
+
