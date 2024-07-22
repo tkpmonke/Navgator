@@ -1,17 +1,20 @@
 # Embeded File Explorer
-Hopefully Cross Platform as well!
+Simple Files Explorer for GLFW + imgui apps. comes with a simple imgui wrapper to initialize imgui for you! It comes with a modular backend, and a planned SDL backend will be included!
 
-<<<<<<< HEAD
-! [screen shot of navgator] (/page/screenshot.png)
-! [another screenshot] (/page/screenshot2.png)
-- [x] working on linux
-=======
-![screenshot of navgator](page/screenshot.png)
+Since Navgator uses ImGui, the colors will automagically be the same as your engines!
+
+## Todo
 
 - [x] working on Linux
->>>>>>> 920a06c11c18f9d959e7ecf24efa80c8e50f64b6
-- [ ] finish readme
+- [x] finish readme
 - [ ] allow root directory on Linux
 - [ ] working on windows
 - [ ] specify what file types are being looked for
+- [ ] SDL2 backend
 - [ ] suitability & bug test
+
+## Screenshots
+
+![screen shot of navgator](/page/screenshot.png)
+![another screenshot](/page/screenshot2.png)
+
