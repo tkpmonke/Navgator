@@ -1,11 +1,11 @@
 # Embeded File Explorer
-Hopfully Cross Platform as well!
+Hopefully Cross Platform as well!
 
-! [screen shot of navgator] (/page/screenshot.png)
+! [screenshot of navgator] (https://github/juice2011/Navgator/page/screenshot.png)
 
-- [x] working on linux
+- [x] working on Linux
 - [ ] finish readme
-- [ ] allow root directory on linux
+- [ ] allow root directory on Linux
 - [ ] working on windows
 - [ ] specify what file types are being looked for
 - [ ] suitability & bug test
