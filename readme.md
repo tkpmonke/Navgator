@@ -2,7 +2,7 @@
 Hopfully Cross Platform as well!
 
 ! [screen shot of navgator] (/page/screenshot.png)
-
+! [another screenshot] (/page/screenshot2.png)
 - [x] working on linux
 - [ ] finish readme
 - [ ] allow root directory on linux
