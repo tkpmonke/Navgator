@@ -7,7 +7,7 @@ project "navgator"
    language "C++"
    cppdialect "gnu++17"
    targetdir "bin"
-   includedirs { "../src", "../imgui" }
+   includedirs { "src", "imgui" }
    files { "**.h", "**.cpp", "**.hpp" }
    
    links { "glfw", "GL", "GLEW" }

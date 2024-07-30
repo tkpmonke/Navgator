@@ -21,7 +21,7 @@ int main()
       glClear(GL_COLOR_BUFFER_BIT);
       glfwPollEvents();
       WINDOW_BACKEND_BEGIN_FRAME;
-      
+
       ImGui::Begin("Navgater Test App");
       if (file.succeded) { 
          ImGui::Text(file.path.data());

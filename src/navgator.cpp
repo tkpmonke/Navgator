@@ -228,7 +228,7 @@ namespace Navgator {
                   for (auto s : filetypes)
                   {
                      if (to_lower(extension) == s.first)
-                     {
+                     { 
                         type = s.second;
                         break;
                      }
@@ -247,19 +247,19 @@ namespace Navgator {
                   std::ifstream file(p);
                   std::stringstream s;
                   s << file.rdbuf();
-                  ImGui::Text("%s", s.str().data()); 
+                  ImGui::TextUnformatted(s.str().data()); 
                }
 
             }
 
 
+            ImGui::EndPopup();
          }
 
-         ImGui::EndPopup();
          WINDOW_BACKEND_RENDER;
          WINDOW_BACKEND_SWAP_BUFFERS(window);
       }
-
+      
       return r;
    }
 }
